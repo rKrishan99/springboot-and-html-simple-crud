@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 100px ;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 6px;
+  }
+.submit-button {
+    background-color: blue;
+    color: aliceblue;
+    width: 80px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+.diplayData {
+    margin-top: 50px;
+}
+#table-container{
+    margin-top: 50px;
+}
+table,th,td {
+    border: 1px solid black;
+}
+.delete-button{
+    background-color: red;
+    cursor: pointer;
+}

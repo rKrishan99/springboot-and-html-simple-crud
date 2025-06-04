@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="dataForm">
+
+      <h1>Submit Data</h1>
+      <div class="formContainer">
+        <label>Name</label>
+        <input type="text" id="name" />
+
+        <label>Email</label>
+        <input type="email" id="email" required />
+
+        <label>Gender</label>
+        <select name="" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Femal</option>
+        </select>
+
+        <label>Phone</label>
+        <input type="number" id="phone" required />
+
+        <button type="button" class="submit-button" onclick="submitForm()">Submit</button>
+      </div>
+    </form>
+
+    <div id="table-container">
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
